@@ -24,7 +24,7 @@ jobs:
                    venv/bin/activate
                make install
          - run:
-             name: test lint
+            name: test lint
             # This assumes pytest is installed via the install-package step above
             command: |
                venv/bin/activate
